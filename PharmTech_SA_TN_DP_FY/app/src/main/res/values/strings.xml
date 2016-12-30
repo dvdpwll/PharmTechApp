@@ -1,0 +1,309 @@
+<resources>
+    <string name="app_name">PharmTech_SA_TN_DP_FY</string>
+    <string name="drug_title_hint">Test</string>
+    <string name="generic_name">Generic Name</string>
+    <string name="brand_name">Brand Name</string>
+    <string name="purpose">Purpose</string>
+    <string name="dea_sch">DEA Sch</string>
+    <string name="special">Special</string>
+    <string name="category">Category</string>
+    <string name="study_topic">Study Topic</string>
+    <string name="study_all">All Drugs</string>
+    <string name="incorrect_toast">Incorrect! This drug name does NOT exist</string>
+
+    <string name="search_drug">Search by Generic</string>
+    <string name="show_subtitle">Show Total Drugs</string>
+    <string name="hide_subtitle">Hide Total Drugs</string>
+    <string name="subtitle_format">%1$s drugs</string>
+
+    <plurals name="subtitle_plural">
+        <item quantity="zero">%1$s drug</item>
+        <item quantity="one">%1$s drug</item>
+        <item quantity="other">%1$s drugs</item>
+    </plurals>
+
+
+    <string name="tof_button">True or False</string>
+    <string name="moc_button">Multiple Choice</string>
+    <string name= "true_button">True</string>
+    <string name ="false_button">False</string>
+    <string name= "next_button">Next</string>
+    <string name= "question_methadone">Dolophine® is the brand name for Methadone </string>
+    <string name= "question_clonazepam">Valium® is the brand name for Clonazepma </string>
+
+    <string name="menu_text">The Pharmacy Technician Study Guide.</string>
+    <string name="quiz_text">Welcome to the Quiz Center</string>
+    <string name="study_button">Study</string>
+    <string name="quiz_button">Take a Quiz</string>
+    <string name="submit">Submit</string>
+    <string name="spinner_prompt">Select a filter.</string>
+    <string name="notes_dialog_title">Go to notes:</string>
+    <string name="flash_card_btn_text">Flash Cards</string>
+    <string name="flash_card_spinner_text">Select Flash Card Type</string>
+    <string name="play_sound"><u><i>Play Sound here:</i></u></string>
+
+
+    <!--category-->
+    <string name="ace_inhibitor">ACE Inhibitor</string>
+    <string name="amphetamine">Amphetamine</string>
+    <string name="analgesic">Analgesic</string>
+    <string name="antibacterial">Antibacterial</string>
+    <string name="anticholinergic">Anticholinergic</string>
+
+
+
+    <!--study topic-->
+    <string name="anti_infective">Anti Infective</string>
+    <string name="CNS">CNS</string>
+    <string name="CV">CV</string>
+    <string name="derm">derm</string>
+    <string name="personal_notes_hint">Notes are here.</string>
+    <string name="notes_label_text">Notes:</string>
+    <string name="drug_title">Drug Title</string>
+    <string name="notes_text"><u><b><i>Notes: </i></b></u></string>
+    <string name="et_notes_here">Notes go here ... auto save.</string>
+    <string name="update_notes_btn_text">Save Notes</string>
+    <string name="drug_brand">Drug Brand</string>
+
+
+
+    <string name="quiz_item">Select a Quiz Item</string>
+    <string name="quiz_type">Select a Quiz Type</string>
+    <string name="flash_spinner_btn_text">Submit Flash Card Selection</string>
+
+
+    <!--study by spinner-->
+    <string-array name="study_by_list">
+        <item>category</item>
+        <item>purpose</item>
+        <item>topic</item>
+    </string-array>
+
+    <!--flash studyByActivity spinner-->
+    <string-array name="flash_spinner">
+        <item>Make Flash Card Selection</item>
+        <item>Category</item>
+        <item>Schedule</item>
+        <item>Purpose</item>
+        <item>Special</item>
+        <item>Topic</item>
+    </string-array>
+
+    <!--quiz by spinner-->
+    <string-array name="quiz_by_type">
+        <item>Multiple Choice</item>
+        <item>True or False</item>
+    </string-array>
+
+    <!--purpose spinner-->
+    <string-array name="purpose_list">
+        <item>ACS</item>
+        <item>ADHD</item>
+        <item>ADHD / Narcolepsy</item>
+        <item>Allergies</item>
+        <item>Alzheimers</item>
+        <item>Antiaddictive</item>
+        <item>Antianxiety</item>
+        <item>Antiarthritis</item>
+        <item>Antibacterial</item>
+        <item>Antibiotic</item>
+        <item>Anticoagulant</item>
+        <item>Anticonvulsant</item>
+        <item>Antidepressant</item>
+        <item>Antidepressant/sleep</item>
+        <item>Antidimentia</item>
+        <item>Antiemetic</item>
+        <item>Antiepileptic</item>
+        <item>Antifungal</item>
+        <item>Antigout</item>
+        <item>Antihistamine</item>
+        <item>Antiinflammatory</item>
+        <item>Antiplatelet</item>
+        <item>Antipsychotic</item>
+        <item>Antitussive</item>
+        <item>Asthma</item>
+        <item>Asthma Inhaler</item>
+        <item>Beta Blocker</item>
+        <item>BPH</item>
+        <item>CHF</item>
+        <item>CHF/HBP</item>
+        <item>Cholesterol</item>
+        <item>Cholesterol Combo</item>
+        <item>COPD</item>
+        <item>Coronary vasodilator</item>
+        <item>Corticosteroid</item>
+        <item>Diabetes</item>
+        <item>Diabetes Type I</item>
+        <item>Diabetes Type II</item>
+        <item>Diuretic</item>
+        <item>DM type 2</item>
+        <item>Electrolyte</item>
+        <item>Estrogen</item>
+        <item>Expectorant</item>
+        <item>Flu</item>
+        <item>Freq. Urination</item>
+        <item>Fungal infections</item>
+        <item>GERD</item>
+        <item>Glaucoma</item>
+        <item>Gout</item>
+        <item>HBP</item>
+        <item>HBP/Angina</item>
+        <item>Herpes Mgmt.</item>
+        <item>Hypertension</item>
+        <item>I.B.S.</item>
+        <item>Impotence</item>
+        <item>Incontinence</item>
+        <item>Long-Acting Insulin</item>
+        <item>Low T</item>
+        <item>Migraine</item>
+        <item>Muscle Relaxer</item>
+        <item>Narcotic Analgesic</item>
+        <item>NSAID</item>
+        <item>NSAID Gel</item>
+        <item>Ocular Hypertension</item>
+        <item>Opiate Addiction</item>
+        <item>Osteoporosis</item>
+        <item>Overactive Bladder</item>
+        <item>Pain Relief</item>
+        <item>Pain, inflammation, antipyretic</item>
+        <item>Parkinsons</item>
+        <item>Rheum. arthritis</item>
+        <item>Shingles Vaccine</item>
+        <item>Sleep Aid</item>
+        <item>Smoking addiction</item>
+        <item>Supplement</item>
+        <item>Thyroid Hormone</item>
+        <item>Thyroid replacement</item>
+        <item>Ulcerative colitis</item>
+        <item>Urinary tract analgesic</item>
+        <item>Weight Loss</item>
+    </string-array>
+
+    <!--DEA spinner-->
+    <string-array name="dea_list">
+        <item>-</item>
+        <item>C-II</item>
+        <item>C-III</item>
+        <item>C-IV</item>
+        <item>None</item>
+    </string-array>
+
+    <!--special spinner-->
+    <string-array name="special_list">
+        <item>Administration instructions</item>
+        <item>Age restriction, drug interactions</item>
+        <item>Care in handling by women</item>
+        <item>cough</item>
+        <item>Days supply</item>
+        <item>Drug Interactions</item>
+        <item>Frozen</item>
+        <item>K+ sparing</item>
+        <item>Multiple uses</item>
+        <item>PPI</item>
+        <item>Prescribing restrictions</item>
+        <item>Refrigerated</item>
+        <item>SQ</item>
+        <item>Swallow whole</item>
+        <item>Take AM</item>
+        <item>Take HS</item>
+        <item>Take PM</item>
+        <item>Topical only</item>
+        <item>Urine discoloration</item>
+        <item>Used in AD(H)D</item>
+        <item>UTI only</item>
+    </string-array>
+
+    <!--category spinner-->
+    <string-array name="category_list">
+        <item>ACE Inhibitor</item>
+        <item>Amphetamine</item>
+        <item>Analgesic</item>
+        <item>Antibacterial</item>
+        <item>Anticholinergic</item>
+        <item>Anti-coagulent</item>
+        <item>Anti-Depressant/sleep</item>
+        <item>Anti-fungal</item>
+        <item>Anti-histamine</item>
+        <item>Anti-infective</item>
+        <item>Anti-platelet</item>
+        <item>Anti-viral</item>
+        <item>ARB</item>
+        <item>Benzodiazepine</item>
+        <item>Beta stimulant</item>
+        <item>Beta-blocker</item>
+        <item>Bisphosphonate</item>
+        <item>Calc. Chan. Blocker</item>
+        <item>Cardiovascualr</item>
+        <item>Cardivascular</item>
+        <item>Cephalosporin</item>
+        <item>CNS</item>
+        <item>Corticosteroid</item>
+        <item>Diabetes</item>
+        <item>Diuretic</item>
+        <item>Endocrine</item>
+        <item>GI</item>
+        <item>H-2 blocker</item>
+        <item>Hormone</item>
+        <item>Hypnotic</item>
+        <item>K replacement</item>
+        <item>Long-Acting Insulin</item>
+        <item>Macrolide</item>
+        <item>Musculo-skeletal</item>
+        <item>non-opiate</item>
+        <item>NSAID</item>
+        <item>NSAID (Arthritis)</item>
+        <item>Ophthalmic</item>
+        <item>Opiate</item>
+        <item>Penicillin</item>
+        <item>PPI</item>
+        <item>Quinolone</item>
+        <item>Rapid-Acting Insulin</item>
+        <item>Respiratory</item>
+        <item>SNRI</item>
+        <item>Statin</item>
+        <item>Tetracycline</item>
+        <item>Topical analgesic</item>
+        <item>Tricyclic</item>
+        <item>Urinary</item>
+        <item>Vaccine</item>
+        <item>Vitamin</item>
+    </string-array>
+
+    <!--study topic spinner-->
+    <string-array name="study_topic_list">
+        <item>Analgesic</item>
+        <item>Anti-infective</item>
+        <item>CNS</item>
+        <item>CV</item>
+        <item>Derm</item>
+        <item>DM/Endocrine</item>
+        <item>Eye</item>
+        <item>GI</item>
+        <item>Heme</item>
+        <item>Musculo-skeletal</item>
+        <item>Respiratory</item>
+        <item>Skin</item>
+        <item>Urine</item>
+    </string-array>
+
+
+    <string name="quiz_textc"> You are going to take a quiz by category  !! </string>
+    <string name= "quiz_texts"> You are going to take a quiz by Study Topic !! </string>
+    <string name="quiz_textp">You are going to take a quiz by purpose!! </string>
+    <string name= "choice_text">Choose quiz category and type. </string>
+
+    <string name= "purpose_button">Purpose</string>
+    <string name="category_button">Category</string>
+    <string name="sop_button">Study Topic</string>
+    <string name= "questionp_brilinta">The purpose of Brilinta is to treat ACS</string>
+    <string name= "questionp_zyrtec">The purpose of Zyrtec is to treat Allergies</string>
+    <string name= "questionp_lorazepam">The purpose of Lorazepam is to treat</string>
+    <string name= "questionc_Xanax">Xanax® id categorized under Benzodiazepine</string>
+    <string name= "questionc_Focalin">Focalin® is categorized under CNS</string>
+    <string name= "questionc_Kenalog">Kenalog® is categorized under Corticosteroid</string>
+    <string name= "questions_Dramamine">Dramamine is for Respiratory purpose</string>
+    <string name= "questions_Phenergan">Phenergan® is for CNS</string>
+    <string name= "questions_Patanol">Patanol® is for eye</string>
+
+
+</resources>

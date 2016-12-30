@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:andriod="http://schemas.android.com/apk/res/android"
+              andriod:layout_width="match_parent"
+              andriod:layout_height="match_parent"
+              andriod:gravity="center"
+              andriod:orientation="vertical"
+              andriod:background="@drawable/resultbn">
+
+
+
+
+    <TextView
+        andriod:id="@+id/question_text_view"
+        andriod:layout_width="match_parent"
+        andriod:layout_height="wrap_content"
+        andriod:padding="24dp"
+        andriod:textSize="20sp"
+        andriod:textAlignment="center"
+        andriod:background="@drawable/box_shape"
+        andriod:text="Question:"/>
+
+    <LinearLayout
+        andriod:layout_width="wrap_content"
+        andriod:layout_height="wrap_content"
+        andriod:orientation="horizontal"
+        andriod:layout_marginTop="40dp">
+
+        <Button
+            andriod:id="@+id/true_button"
+            andriod:layout_width="wrap_content"
+            andriod:layout_height="wrap_content"
+            andriod:layout_marginRight="10dp"
+            andriod:text="@string/true_button"
+            andriod:background="@drawable/btnblue"/>
+
+        <Button
+            andriod:id="@+id/false_button"
+            andriod:layout_width="wrap_content"
+            andriod:layout_height="wrap_content"
+            andriod:text="@string/false_button"
+            andriod:background="@drawable/btnblue"
+            andriod:layout_marginLeft="5dp"/>
+
+        <Button
+            andriod:id="@+id/next_button"
+            andriod:layout_width="101dp"
+            andriod:layout_height="wrap_content"
+            andriod:background="@drawable/btnpurple"
+            andriod:text="Next"
+            andriod:layout_marginLeft="30dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        andriod:id="@+id/result_text_view"
+        andriod:layout_width="wrap_content"
+        andriod:layout_height="wrap_content"
+        andriod:layout_marginTop="50dp"
+        andriod:padding="24dp"
+        andriod:textSize="25sp"
+        andriod:text="Result:"/>
+</LinearLayout>

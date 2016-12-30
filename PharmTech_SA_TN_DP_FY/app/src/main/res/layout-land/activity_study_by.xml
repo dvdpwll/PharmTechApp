@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:scrollbars="vertical"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent">
+
+    <LinearLayout android:orientation="vertical"
+                  android:layout_width="fill_parent"
+                  android:layout_height="fill_parent"
+                  android:gravity="center"
+                  android:background="@drawable/back5">
+
+        <Button
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/study_all_button"
+            android:background="@drawable/btnblue"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="6dp"
+            android:paddingRight="6dp"
+            android:textColor="#ffffff"
+            android:text="@string/study_all"/>
+
+        <Button
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/pupose_button"
+            android:paddingLeft="6dp"
+            android:paddingRight="6dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/btnblue"
+            android:layout_marginTop="10dp"
+            android:text="@string/purpose"/>
+
+        <Button
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/DEA_sch_button"
+            android:textColor="#ffffff"
+            android:background="@drawable/btnblue"
+            android:layout_marginTop="10dp"
+            android:text="@string/dea_sch"/>
+
+        <Button
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/special_button"
+            android:background="@drawable/btnblue"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:text="@string/special"/>
+
+        <Button
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/category_button"
+            android:background="@drawable/btnblue"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:text="@string/category"/>
+
+
+        <Button
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/study_topic_button"
+            android:background="@drawable/btnblue"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:text="@string/study_topic"/>
+
+        <Button
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/flash_card_button"
+            android:background="@drawable/btnblue"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:text="@string/flash_card_btn_text"/>
+
+        <Spinner
+            android:spinnerMode="dialog"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/flash_spinner"
+            android:entries="@array/flash_spinner"
+            android:background="#b8ebec"
+            android:padding="10dp"
+            android:visibility="invisible"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:prompt="@string/flash_card_spinner_text"
+            />
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/flash_spinner_button"
+            android:text="@string/flash_spinner_btn_text"
+            android:layout_marginTop="10dp"
+            android:background="#b8ebec"
+            android:padding="10dp"
+            android:visibility="invisible"/>
+    </LinearLayout>
+</ScrollView>

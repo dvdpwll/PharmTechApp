@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.groupproject.android.PharmTech_SA_TN_DP_FY.QuizActivity"
+    android:baselineAligned="false"
+    android:background="@drawable/resultbn">
+
+
+    <TextView
+        android:text="@string/quiz_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:textStyle="bold|italic"
+        android:padding="24dp"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/tof_button"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btnpurple"
+        android:text="@string/tof_button"/>
+
+    <Button
+        android:id="@+id/moc_button"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btnpurple"
+        android:layout_marginTop="10dp"
+        android:text="@string/moc_button"/>
+
+</LinearLayout>
+

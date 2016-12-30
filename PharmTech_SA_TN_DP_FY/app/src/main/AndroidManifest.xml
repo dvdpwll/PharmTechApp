@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.groupproject.android.PharmTech_SA_TN_DP_FY">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".MenuActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".DrugActivity" android:label="@string/app_name">
+            <!--intent-filter was moved from here to .DrugListActivity-->
+        </activity>
+
+        <activity
+            android:name=".DrugListActivity"
+            android:label="@string/app_name"
+            android:parentActivityName=".StudyByActivity">>
+        </activity>
+
+        <activity android:name=".StudyByActivity"
+                  android:label="@string/app_name"
+                  android:parentActivityName=".MenuActivity">>
+        </activity>
+
+        <activity android:name=".QuizByGetActivity"
+                  android:label="@string/app_name"
+                  android:parentActivityName=".MenuActivity">>
+        </activity>
+
+        <activity android:name=".QuizActivity"></activity>
+        <activity android:name=".DrugPagerActivity"></activity>
+        <activity android:name=".MocActivity"></activity>
+        <activity android:name=".TofActivity"></activity>
+        <activity android:name=".ToFResults"></activity>
+        <activity android:name=".MocResults"></activity>
+        <activity android:name=".FlashActivity"></activity>
+        <activity android:name=".StudyActivity"></activity>
+        <activity android:name=".AboutActivity"></activity>
+        <activity android:name=".LegalActivity"></activity>
+    </application>
+
+</manifest>

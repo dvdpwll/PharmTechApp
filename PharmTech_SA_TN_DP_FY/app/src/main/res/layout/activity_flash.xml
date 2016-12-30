@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/back5"
+    android:weightSum="1">
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textSize="20sp"
+        android:textColor="#FFCC0000"
+        android:hint="Question Goes Here"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="40dp"
+        android:layout_weight="0.12" />
+
+    <Button
+        android:text="Reveal Answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_reveal"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/btnblue"/>
+
+    <Button
+        android:text="Next Question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_next"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btnblue"/>
+
+
+</LinearLayout>

@@ -1,0 +1,65 @@
+<LinearLayout xmlns:andriod="http://schemas.android.com/apk/res/android"
+              andriod:layout_width="match_parent"
+              andriod:layout_height="match_parent"
+              andriod:weightSum="1"
+              andriod:background="@drawable/resultbn"
+              andriod:scrollbars="vertical"
+              andriod:scrollbarSize="@dimen/activity_vertical_margin"
+              andriod:scrollbarStyle="outsideInset"
+              andriod:orientation="vertical"
+              andriod:baselineAligned="false">
+
+    <TextView
+        andriod:text="@string/menu_text"
+        andriod:layout_width="match_parent"
+        andriod:layout_height="wrap_content"
+        andriod:layout_marginTop="75dp"
+        andriod:gravity="center_horizontal"
+        andriod:textSize="30sp"
+        andriod:textStyle="bold|italic"
+        andriod:padding="24dp"
+        andriod:id="@+id/textView3" />
+
+
+    <Button
+        andriod:id="@+id/study_button"
+        andriod:layout_width="250dp"
+        andriod:layout_height="wrap_content"
+        andriod:layout_marginTop="50dp"
+        andriod:text="@string/study_button"
+        andriod:background="@drawable/btnblue"
+        andriod:layout_gravity="center_horizontal"
+        />
+
+    <Button
+        andriod:id="@+id/quiz_button"
+        andriod:layout_width="250dp"
+        andriod:layout_height="wrap_content"
+        andriod:layout_marginTop="20dp"
+        andriod:layout_gravity="center_horizontal"
+        andriod:text="@string/quiz_button"
+        andriod:background="@drawable/btnblue"
+        />
+
+    <Button
+        andriod:id="@+id/about_button"
+        andriod:layout_width="250dp"
+        andriod:layout_height="wrap_content"
+        andriod:layout_marginTop="20dp"
+        andriod:layout_gravity="center_horizontal"
+        andriod:text="About"
+        andriod:background="@drawable/btnblue"
+        />
+
+    <Button
+        andriod:id="@+id/legal_button"
+        andriod:layout_width="250dp"
+        andriod:layout_height="wrap_content"
+        andriod:layout_marginTop="20dp"
+        andriod:layout_gravity="center_horizontal"
+        andriod:text="Legal"
+        andriod:background="@drawable/btnblue"
+        />
+
+</LinearLayout>
+
